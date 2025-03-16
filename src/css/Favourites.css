@@ -1,0 +1,26 @@
+/* Container for the favourites section */
+.favourite-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    text-align: center;
+    color: palevioletred;
+    font-family: Arial, sans-serif;
+    background-color: peachpuff;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Heading (No favourite movies yet) */
+.favourite-empty h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+.favourite-empty p {
+    font-size: 2rem;
+    font-weight: bold;
+}

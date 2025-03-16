@@ -1,0 +1,41 @@
+/* Navigation bar container */
+.navigation-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #222;
+    padding: 15px 30px;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+/* Brand (Movie App) */
+.navigation-bar-brand a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: #ff4500;
+    transition: color 0.3s ease-in-out;
+}
+
+.navigation-bar-brand a:hover {
+    color: #e03d00;
+}
+
+/* Navigation links container */
+.navigation-bar-links {
+    display: flex;
+    gap: 20px;
+}
+
+/* Navigation links */
+.navigation-link {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.navigation-link:hover {
+    color: #ff4500;
+}

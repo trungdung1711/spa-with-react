@@ -1,0 +1,24 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.app {
+  background-color: palegoldenrod;
+  display: grid;
+}
+
+
+.main-content {
+  background-color: whitesmoke;
+}
+
+
+.email-address p{
+  font-family: 'Courier New', Courier, monospace;
+  color: black;
+  font-weight: 600;
+}
