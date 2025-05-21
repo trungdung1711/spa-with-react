@@ -1,4 +1,5 @@
 import '../css/Favourites.css'
+import Toggle from '../components/Test'
 
 
 function Favourites() {

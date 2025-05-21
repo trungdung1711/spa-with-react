@@ -14,8 +14,7 @@ function App() {
 
     <div className='app'>
 
-      <NavigationBar>
-      </NavigationBar>
+      <NavigationBar />
       
       <main className='main-content'>
         <Routes>

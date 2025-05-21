@@ -4,14 +4,14 @@ import '../css/MovieCard.css'
 function MovieCard({movie}) {
 
     function onFavourite() {
-        alert('Clicked')
+        window.alert('Clicked')
     }
 
     return (
         <div className="movie-card">
             
             <div className="movie-poster">
-                <img src={movie.url} alt={movie.title}>
+                <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`} alt={movie.title}>
                 </img>
                 <div className="movie-overlay">
                     <button className="favorite-btn" onClick={onFavourite}>
