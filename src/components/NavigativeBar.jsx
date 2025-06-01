@@ -15,6 +15,7 @@ function NavigationBar() {
                 <Link to='/' className="navigation-link">
                     Home
                 </Link>
+                
                 <Link to='/favourites' className="navigation-link">
                     Favourites
                 </Link>
